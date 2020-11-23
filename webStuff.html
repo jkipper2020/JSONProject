@@ -1,0 +1,57 @@
+<!--
+Jonathan Kipper
+5-19-2020
+This is the HTML for the program that opens a json file, reads through it by putting all the objects into an array,
+and then displays it on a webpage.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="data.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="headSection">
+        <h1>
+            Medal Of Honor Dataset
+        </h1>
+        <p id="initial">
+        </p>
+    </div>
+</div>
+
+<div class="wrapper2">
+    <div class="Main">
+        <h1 id="name">name</h1>
+        <p id="dateIssued">date</p>
+        <p id="citation">citation</p>
+        <p id="birth">birth</p>
+        <p id="death">death</p>
+        <p id="organization">organization</p>
+        <p id="rank">rank</p>
+    </div>
+</div>
+
+<div class="wrapper3">
+    <div class="facts">
+        <h1>Interesting Facts! </h1>
+        <ul>
+            <li id="fact1">Fact 1</li>
+            <li id="fact2">Fact 2</li>
+            <li id="fact3">Fact 3</li>
+        </ul>
+    </div>
+</div>
+
+
+<div id="left"></div>
+<div id="right"></div>
+
+</body>
+<script src="script.js" defer></script>
+
+</html>
